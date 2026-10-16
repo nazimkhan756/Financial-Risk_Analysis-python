@@ -2,7 +2,7 @@ Financial Risk Analysis with Python
 
 Project Overview
 
-This project analyzes financial transaction data using Python to explore transaction patterns, account activity, and potential financial risks. It demonstrates data cleaning, exploratory data analysis (EDA), statistical analysis, and data visualization.
+This project analyzes financial transaction and account data to understand transaction patterns, account activity, and potential financial risks. It uses Python for data cleaning, exploratory data analysis (EDA), statistical analysis, and data visualization.
 
 Objectives
 
@@ -10,27 +10,28 @@ Objectives
 - Analyze transaction amounts and account balances.
 - Explore risk scores and credit ratings.
 - Identify unusual transactions and potential outliers.
-- Visualize financial trends and patterns.
+- Study financial trends and patterns using visualizations.
 - Perform exploratory data analysis (EDA).
 
-Dataset
+Dataset Details
 
-The dataset contains financial transaction and account-related information, including fields such as:
+The dataset contains 800 records and 15 columns, including:
 
-- TransactionID
-- CustomerID
-- AccountID
-- AccountType
-- TransactionType
-- Product
-- TransactionDate
-- TransactionAmount
-- AccountBalance
-- RiskScore
-- CreditRating
-- TenureMonths
-
-Note: Actual column availability may vary depending on the dataset version.
+- "TransactionID"
+- "CustomerID"
+- "AccountID"
+- "AccountType"
+- "TransactionType"
+- "Product"
+- "Firm"
+- "Region"
+- "Manager"
+- "TransactionDate"
+- "TransactionAmount"
+- "AccountBalance"
+- "RiskScore"
+- "CreditRating"
+- "TenureMonths"
 
 Tools and Technologies
 
@@ -43,26 +44,32 @@ Tools and Technologies
 
 Project Workflow
 
-1. Import the dataset and required Python libraries.
-2. Inspect the data structure and column types.
-3. Handle missing values and duplicate records.
-4. Clean transaction amounts and date columns.
-5. Perform exploratory data analysis.
-6. Analyze risk scores, account balances, and transaction patterns.
-7. Detect potential outliers using statistical methods.
-8. Create visualizations to communicate findings.
+1. Load the financial dataset.
+2. Inspect column names, data types, and data quality.
+3. Check for missing values and duplicate records.
+4. Clean and preprocess transaction data.
+5. Analyze transaction amounts, account balances, risk scores, and credit ratings.
+6. Explore outliers and patterns in the data.
+7. Create visualizations to understand financial trends.
 
-###Key Analysis Areas
+Analysis and Visualizations
 
-- Transaction type and account type analysis
+The project explores:
+
 - Transaction amount distribution
 - Monthly transaction trends
 - Risk score distribution
-- Account balance analysis
-- Correlation analysis
-- Outlier detection
+- Relationships between numerical variables
+- Account activity and financial patterns
+- Potential outliers in transaction amounts
 
-How to Run
+Key Data Quality Checks
+
+- Dataset size: 800 rows and 15 columns
+- Missing values: 0 reported during the initial data-quality check
+- Duplicate rows: 0 reported during the initial data-quality check
+
+How to Run the Project
 
 1. Download or clone this repository.
 
@@ -74,14 +81,18 @@ How to Run
 
 4. Open the project notebook.
 
-5. Update the dataset path if required.
+5. Make sure the CSV file is in the correct directory.
 
-6. Run the notebook cells in order.
+6. Run the notebook cells in sequence.
 
-Expected Outcome
+Project Files
 
-The analysis helps explore financial transaction behavior, understand risk-related patterns, and identify unusual observations for further investigation.
+- "Morgan_Stanley_Financial_Data.csv" — financial dataset
+- "Project_Financial Risk Analysis with Python...ipynb" — analysis notebook
+- "README.md" — project documentation
 
-Disclaimer
+Conclusion
 
-This project is intended for educational and portfolio purposes. Findings are exploratory and should not be treated as verified financial advice or a formal credit-risk assessment.
+This project demonstrates practical skills in Python-based data cleaning, exploratory data analysis, statistical exploration, and visualization of financial transaction data. It provides a foundation for understanding potential financial risk indicators.
+
+Note: This is an exploratory data analysis project and does not constitute a validated financial risk prediction model.
