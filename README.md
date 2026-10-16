@@ -1,10 +1,10 @@
-Financial Risk Analysis with Python
+###Financial Risk Analysis with Python
 
-Project Overview
+###Project Overview
 
 This project analyzes financial transaction data using Python to explore transaction patterns, account activity, and potential financial risks. It demonstrates data cleaning, exploratory data analysis (EDA), statistical analysis, and data visualization.
 
-Objectives
+###Objectives
 
 - Clean and preprocess financial transaction data.
 - Analyze transaction amounts and account balances.
@@ -13,7 +13,7 @@ Objectives
 - Visualize financial trends and patterns.
 - Perform exploratory data analysis (EDA).
 
-Dataset
+###Dataset
 
 The dataset contains financial transaction and account-related information, including fields such as:
 
@@ -32,7 +32,7 @@ The dataset contains financial transaction and account-related information, incl
 
 Note: Actual column availability may vary depending on the dataset version.
 
-Tools and Technologies
+###Tools and Technologies
 
 - Python
 - Pandas
@@ -41,7 +41,7 @@ Tools and Technologies
 - Seaborn
 - Jupyter Notebook
 
-Project Workflow
+###Project Workflow
 
 1. Import the dataset and required Python libraries.
 2. Inspect the data structure and column types.
@@ -52,7 +52,7 @@ Project Workflow
 7. Detect potential outliers using statistical methods.
 8. Create visualizations to communicate findings.
 
-Key Analysis Areas
+###Key Analysis Areas
 
 - Transaction type and account type analysis
 - Transaction amount distribution
@@ -78,10 +78,10 @@ How to Run
 
 6. Run the notebook cells in order.
 
-Expected Outcome
+###Expected Outcome
 
 The analysis helps explore financial transaction behavior, understand risk-related patterns, and identify unusual observations for further investigation.
 
-Disclaimer
+###Disclaimer
 
 This project is intended for educational and portfolio purposes. Findings are exploratory and should not be treated as verified financial advice or a formal credit-risk assessment.
